@@ -9,7 +9,7 @@ import numpy as np
 
 # function to load the data
 def load_data():
-    # initialize window inm order to open file
+    # initialize window in order to open file
     root = tk.Tk()
     root.withdraw()
     zip_path = askopenfilename(
