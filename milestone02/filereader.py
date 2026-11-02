@@ -8,7 +8,7 @@ import re
 import numpy as np
 import math
 
-# function to load the data
+# function to read uploaded zip file
 def read_collection():
     # initialize window in order to open file
     root = tk.Tk()
@@ -114,6 +114,7 @@ def read_collection():
 
     return collections
 
+# functions for loading data needed
 def load_data():
     collections = read_collection()
     if collections is None:
