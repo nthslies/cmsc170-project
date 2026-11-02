@@ -235,11 +235,14 @@ def load_clustering():
     return x_regions, region_names
 
 if __name__ == "__main__":
+    # supervised
     x_train, y_train, x_test, y_test = load_data()
     if x_train is not None:
         # indicator that data loaded
         print("\nData Loading Completed!")
 
+    # unsupervised
     x_regions, region_names = load_clustering()
     if x_regions is not None:
+        # indicator that data loaded
         print("\nData Loading Completed!")
